@@ -170,9 +170,10 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
         ],[
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
+            InlineKeyboardButton(text="SUBSCRIBE YOUTUBE CHANNEL", url=f"https://youtube.com/@jnentertainment.?si=GRyKp5kUhDtP3Ssu"),
         ],[
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+RowdIa84tBg1MDI1"),
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+M5zdwhf__4JlY2Jl"),
