@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://jnanesh:jnanesh@cluster0.8pzxa6s.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "028dcc84c348788150cdbc48331a813bf7a8d257")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "short2url.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "67921e2a3b356b30e41502b14401f0f608bf6d19")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_open_link_rockersbot/22")
@@ -59,7 +59,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>You need to join in my Channel/Group and subscribe my youtube channel to use me\n\nSubscribe :- https://youtube.com/@jnstudiomovies?si=oVxoX-omcfupVN-d</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>You need to join in my Channel/Group and subscribe my youtube channel to use me\n\nSubscribe :- https://youtube.com/@jn2flix?si=qyctv1jg_LYy-kS-</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", """{filename}\n\n<a href="t.me/+y4Yfxe221o5iZjQ9">🔞 𝐚𝐝𝐮𝐥𝐭 𝐯𝐢𝐝𝐞𝐨 🔞</a>\n\n<a href="t.me/+D7L-rX9lKA43MGRl">🍿 𝐎𝐓𝐓 𝐌𝐨𝐯𝐢𝐞 🍿</a>\n\n<a href="t.me/+MkmB-unfQk02YTU1">🎞 𝐀𝐋𝐋 𝐌𝐎𝐕𝐈𝐄 🎞</a>""")
